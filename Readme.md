@@ -9,4 +9,13 @@
 - HTML
 - CSS
 
-![Image](img/Screenshot%20(426).png)
+---
+#### These are images realted to landing page
+
+![Image](website_screenshot/Screenshot%20(426).png)
+
+![Image](website_screenshot/Screenshot%20(427).png)
+
+![Image](website_screenshot/Screenshot%20(433).png)
+
+![Image](website_screenshot/Screenshot%20(431).png)
