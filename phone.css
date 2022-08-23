@@ -1,0 +1,202 @@
+/*-----------Navbar_Section--------------*/
+
+@media (max-width: 860px) {
+  #navbar {
+    border: 0.5px solid #fff;
+    align-items: center;
+    width: 100%;
+    margin-left: 0px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+    background-color: #000;
+    z-index: 1;
+  }
+  .logo {
+    height: 35px;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  #btn,
+  #cancel {
+    margin-right: 25px;
+  }
+  #btn {
+    display: block;
+  }
+
+  #menu-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 105%;
+    height: 85vh;
+    top: 60px;
+    left: -105%;
+    transition: all 0.5s;
+    background-color: rgb(32, 32, 32);
+  }
+  .list-items {
+    line-height: 45px;
+    margin: 20px 10px;
+  }
+  .list-items a {
+    font-size: 22px;
+  }
+
+  #check:checked ~ #menu-list {
+    left: 0;
+  }
+  #check:checked ~ label #btn {
+    display: none;
+  }
+  #check:checked ~ label #cancel {
+    display: block;
+  }
+}
+
+/*---------------------Card-Section-----------------*/
+
+@media (max-width: 1100px) {
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  left: 12%;
+  margin-top: 60px;
+}
+.card {
+  height: 45vh;
+  width: 25vw;
+  margin: 20px 10px;
+}
+.card-icons {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.card h3 {
+  font-size: 18px;
+  padding: 8px 25px;
+}
+.card p {
+  font-size: 15px;
+  padding: 5px 25px;
+}
+
+}
+/*--------------Main-Heading-Section-------------*/
+
+@media (max-width: 1100px) {
+.hero-heading-section {
+  width: 60vw;
+  margin-right: 100px;
+  margin-top: 60px;
+}
+}
+@media (max-width: 860px) {
+  #main-heading-section {
+    width: 90%;
+    display: flex;
+    margin-left: 45px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .hero-heading-section {
+    width:90%;
+    margin-top: 20px;
+  }
+  .hero-img {
+    margin-top: 5px;
+    height: 80vh;
+    width: 80vw;
+  }
+}
+/*  */
+@media (max-width: 960px) {
+  .heading-button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 850px) {
+  .card-second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-second::before {
+    width: 30vw;
+  }
+}
+@media (max-width: 650px) {
+  .card-second::before {
+    width: 31vw;
+    margin: 20px 23px;
+  }
+  .card-second {
+    margin: 40px 0px;
+  }
+}
+
+
+/*------------Contact-Section--------------------*/
+@media (max-width: 1100px) {
+  #contact-section {
+    height: 50vh;
+  }
+  .contact-heading {
+    width: 100%;
+  }
+  .contact-heading h1 {
+    font-size: 30px;
+  }
+  .contact-heading p {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .contact-btn {
+    margin-right: 40px;
+    padding: 12px 20px;
+  }
+}
+@media (max-width: 700px) {
+  #contact-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .contact-btn {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 700px) {
+  .contact-heading h1 {
+    font-size: 25px;
+  }
+  .contact-heading p {
+    font-size: 10px;
+    padding-top: 5px;
+  }
+}
+
+
+/*-------------Footer--------------*/
+@media (max-width: 800px) {
+  #footer {
+    height: 40vh;
+  }
+  .footer-row {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .social-media-icon {
+    margin-bottom: 20px;
+    margin-left: 25px;
+  }
+}

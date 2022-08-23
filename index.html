@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Design and Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-------------Google-Font-Link------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <!--------------Link-CSS------------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+</head>
+
+<body>
+    <!--------------Navbar------------->
+    <nav id="navbar">
+        <img src="img/Logo.png" class="logo">
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fa-solid fa-bars" id="btn"></i>
+            <i class="fa-solid fa-xmark" id="cancel"></i>
+        </label>
+        <ul id="menu-list">
+            <li class="list-items"><a href="#">HOME</a><i class="fa-solid fa-caret-down" id="drop-down-icon"></i>
+            </li>
+            <li class="list-items"><a href="#">PROJECT</a></li>
+            <li class="list-items"><a href="#">ABOUT</a></li>
+            <li class="list-items"><a href="#">CONTACT</a></li>
+            <li class="list-items"><a href="#">OTHER PAGE</a><i class="fa-solid fa-caret-down" id="drop-down-icon2"></i>
+            </li>
+        </ul>
+    </nav>
+    <!--------------Hero-Heading-Section------------->
+
+    <section id="main-heading-section">
+        <img src="img/Untitled design (35).png" class="hero-img">
+        <div class="hero-heading-section">
+            <h3>Hello I'm Arthur</h3>
+            <h1>Visual Designer</h1>
+            <p>Lorem ipsum vdolor sit amet, consectetur adipiscing elit. A nulla nulla etlam turpis quam diam et.
+                Arcu nisi, sed aenean sit nisl.</p>
+            <button class="hero-btn">ABOUT ME</button>
+        </div>
+    </section>
+    <!--------------First Card-Section------------->
+    <section id="card-container-section">
+        <div class="card-container">
+            <div class="card">
+                <img src="img/clean-code.svg" class="card-icons">
+                <h3>Ui Design</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, magnam.</p>
+                <h4>KNOW MORE <i class="fa-solid fa-arrow-right"></i></h4>
+            </div>
+            <div class="card active">
+                <img src="img/Group 100.png" class="card-icons">
+                <h3>Product DesIgn</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, magnam.</p>
+                <h4 class="active2">KNOW MORE <i class="fa-solid fa-arrow-right"></i></h4>
+            </div>
+            <div class="card">
+                <img src="img/clean-code.svg" class="card-icons">
+                <h3>Branding</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, magnam.</p>
+                <h4>KNOW MORE <i class="fa-solid fa-arrow-right"></i></h4>
+            </div>
+        </div>
+
+        <div class="card-experience-container">
+            <div class="heading-card">
+                <h1>12</h1>
+                <p>years Experience</p>
+            </div>
+            <div class="card2-container">
+                <div class="card2">
+                    <h2>60+</h2>
+                    <p>Clients</p>
+                </div>
+                <div class="card2">
+                    <h2>08</h2>
+                    <p>Years Experience</p>
+                </div>
+                <div class="card2">
+                    <h2>122+</h2>
+                    <p>Completed Projects</p>
+                </div>
+                <div class="card2">
+                    <h2>10</h2>
+                    <p>Achievments</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------Second-Card-Section------------->
+    <section id="card-product-section">
+        <div class="heading-button">
+            <div class="heading-product">
+                <h1>FEATURED PROJECTS</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <button class="btn" value="#">VIEW ALL</button>
+        </div>
+
+        <div class="card-second-container">
+            <div class="card-second">
+                <img src="img/Screenshot 2022-06-25 131915.jpg" class="card-image">
+                <h5>The Vintage</h5>
+                <p>KNOW MORE <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+            <div class="card-second">
+                <img src="img/Screenshot 2022-06-25 132031.jpg" class="card-image">
+                <h5>Foodasa</h5>
+                <p>KNOW MORE <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+            <div class="card-second">
+                <img src="img/Screenshot 2022-06-25 133016.jpg" class="card-image">
+                <h5>Marco Accent</h5>
+                <p>KNOW MORE <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+            <div class="card-second">
+                <img src="img/Screenshot 2022-06-25 133426.jpg" class="card-image">
+                <h5>Mozaik</h5>
+                <p>KNOW MORE <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+        </div>
+    </section>
+    <!--------------Contact-Section------------->
+    <section id="contact-section">
+        <div class="contact-heading">
+            <h1>Let's work together on your next project</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas, impedit dolores distinctio
+                fugiat in corporis nam commodi beatae dicta.</p>
+        </div>
+        <div>
+            <button class="contact-btn" value="#">CONTACT</button>
+        </div>
+    </section>
+
+    <div class="bottom-menu">
+        <h3>HOME</h3>
+        <h3>ABOUT</h3>
+        <h3>PROJECTS</h3>
+        <h3>CONTACT</h3>
+    </div>
+    <!--------------Footer------------->
+    <section id="footer">
+        <div class="footer-row">
+            <img src="img/Logo.png" class="logo">
+            <div class="social-media-icon">
+                <img src="img/icons8-facebook-f-30.png" class="social-media">
+                <img src="img/icons8-twitter-30.png" class="social-media">
+                <img src="img/icons8-youtube-50.png" class="social-media">
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
