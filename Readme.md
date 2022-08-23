@@ -9,13 +9,4 @@
 - HTML
 - CSS
 
-
-![Images](img/Screenshot%20(426).png)
-
-![Images](img/Screenshot%20(427).png)
-
-![Images](img/Screenshot%20(429).png)
-
-![Images](img/Screenshot%20(433).png)
-
-![Images](img/Screenshot%20(432).png)
+![Image](img/Screenshot%20(426).png)
