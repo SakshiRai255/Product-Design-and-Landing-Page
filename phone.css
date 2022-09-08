@@ -393,6 +393,9 @@
   }
 }
 @media (max-width: 460px) {
+  .card-second-container {
+    left: 3%;
+  }
   .card-second::before {
     width: 50vw;
     height: 45vh;
