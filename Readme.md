@@ -9,17 +9,19 @@
 - HTML
 - CSS
 
+### [Deployed-link](https://my-product-design-landing-page.netlify.app/)
+
 ---
-#### These are images realted to landing page
+#### Snapshots
 
-![Image](website_screenshot/Screenshot%20(426).png)
+![Image](img/Screenshot%20(426).png)
 
-![Image](website_screenshot/Screenshot%20(427).png)
+![Image](img/Screenshot%20(427).png)
 
-![Image](website_screenshot/Screenshot%20(430).png)
+![Image](img/Screenshot%20(430).png)
 
-![Image](website_screenshot/Screenshot%20(433).png)
+![Image](img/Screenshot%20(433).png)
 
-![Image](website_screenshot/Screenshot%20(431).png)
+![Image](img/Screenshot%20(431).png)
 
-![Image](website_screenshot/Screenshot%20(438).png)
+![Image](img/Screenshot%20(438).png)
